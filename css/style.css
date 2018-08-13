@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300');
+
+body {
+	/*background-image: url(../images/bg-overlay.jpg);*/
+	background-attachment: fixed;
+	background-color: #21D4FD;
+background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+
+}
+
+body:after {
+/*	position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1;*/
+}
+
+input {
+	color: white;
+}
+
+nav {
+	text-align: left;
+	padding-left: 20px;
+}
+
+label {
+	color: white !important;
+}
+
+/* DataTables START */
+
+table {
+	color: black;
+}
+
+th {
+	background-color: white !important;
+}
+
+td, th {
+	border-radius: 0 !important;
+	text-align: center !important;
+}
+
+tr, th {
+	background-color: transparent !important;
+	color: white;
+}
+
+.sorting_1, th {
+	background-color: rgba(0,0,0,0.3) !important;
+}
+
+.dataTables_filter {
+	text-align: left !important;
+   float: left !important;
+}
+
+table.display tbody tr:hover td{
+    background-color: #00acc1 !important;
+}
+
+/* DataTables END */
+
+.input-field {
+	width: 450px;
+	margin:0 auto;
+}
+
+.tab a {
+/* In Register Page color for non-highlighted tab */
+	color: black !important;
+	font-weight: bold;
+}
+
+#content {
+	z-index: 2;
+	/*position: absolute;*/
+	color: white;
+ 	text-align: center;
+ 	background: rgba(0,0,0,0.7);
+ 	padding: 10px;
+ 	margin: 0 auto;
+ 	width: 750px;
+}
+
+#logo {
+	width: 100px;
+	height: 100px;
+	margin-bottom: -50px;
+}
+
+#logo-caption{
+	color: #ff3d00;
+}
+#banner-text{
+	font-family: 'Montserrat';/*
+  background: -webkit-linear-gradient( #f64f59, #c471ed, #12c2e9);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;*/
+}
+
+#login-btn{
+	margin-right: 10px;
+}
+form {
+	width: 500px;
+	margin: auto;
+}
+
+form input {
+	padding-left: 20px !important;
+	width: 95% !important;
+	color: white;
+	font-family: 'Montserrat';
+}
+
+.input-field {
+	text-align: left;
+}
+
+.dropdown-trigger {
+	color: white;
+}
+
+#collapsible-spec {
+	/*color: black;*/
+}
+
+.collapsible-header{
+	background-color:rgba(255,255,255,0.2)!important; 
+	border: 1px solid rgba(255,255,255,0.2)!important; 
+}
+
+.linkedin-profile {
+	background-color: #2e7d32;
+	border-radius: 5px;
+	padding: 10px;
+	color: white;
+}
+
+.shortlist {
+	background-color: #01579b;
+	border-radius: 5px;
+	padding: 10px;
+	color: white;
+}
+
+.location {
+	background-color: #EA3369;
+	border-radius: 5px;
+	padding: 4px;
+	color: white;
+}
+
+.header-nav {
+background: #12c2e9;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #f64f59, #c471ed, #12c2e9);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+margin-left: -20px;
+padding-left: 20px;
+}
+
+.tabs .tab a:hover, .tabs .tab a.active {
+	color: black !important;
+	background: -webkit-linear-gradient(to left, #f64f59, #c471ed, #12c2e9);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+font-weight: bold;
+}
+
+/*
+#873A70
+#EA3369
+#16B2BF
+#00acc1
+#00e676
+#2e7d32
+#1b5e20
+#ff3d00
+#00e676
+#01579b
+*/

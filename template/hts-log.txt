@@ -1,0 +1,49 @@
+HTTrack3.49-2+htsswf+htsjava launched on Sun, 12 Aug 2018 17:28:45 at http://www.templatemonsterpreview.com/66754.html +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://www.templatemonsterpreview.com/66754.html -O1 "F:\WD\template" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+17:29:09	Error: 	"Bad Request" (400) at link www.googletagmanager.com/gtm.js?id= (from www.templatemonsterpreview.com/66754.html)
+17:29:12	Warning: 	Retry after error 500 (Internal Server Error) at link www.templatemonsterpreview.com/chat_presales=1; expires=03 Jul 2036 21:44:38 GMT; domain=.templatemonster.com; path=/ (from www.templatemonsterpreview.com/66754.html)
+17:29:12	Warning: 	Retry after error 500 (Internal Server Error) at link www.templatemonsterpreview.com/callback_notice=closed; expires=03 Jul 2036 21:44:38 GMT; domain=.templatemonster.com; path=/ (from www.templatemonsterpreview.com/66754.html)
+17:29:12	Warning: 	Retry after error -4 (No data (connection closed)) at link s.tmimgcdn.com/js/plasma-pocket-react/monsterBundle.js?d=75792e5 (from www.templatemonsterpreview.com/66754.html)
+17:29:12	Warning: 	Retry after error -4 (No data (connection closed)) at link s.tmimgcdn.com/css/svg-icons.css?d=f023f5b (from www.templatemonsterpreview.com/66754.html)
+17:29:13	Warning: 	Retry after error -4 (No data (connection closed)) at link s.tmimgcdn.com/css/font.css (from s.tmimgcdn.com/css/standalone/livedemo.css?d=f023f5b)
+17:29:13	Warning: 	Retry after error 500 (Internal Server Error) at link www.templatemonsterpreview.com/chat_presales=1; expires=03 Jul 2036 21:44:38 GMT; domain=.templatemonster.com; path=/ (from www.templatemonsterpreview.com/66754.html)
+17:29:15	Warning: 	Retry after error 500 (Internal Server Error) at link www.templatemonsterpreview.com/callback_notice=closed; expires=03 Jul 2036 21:44:38 GMT; domain=.templatemonster.com; path=/ (from www.templatemonsterpreview.com/66754.html)
+17:29:39	Warning: 	Retry after error -4 (Interrupted transfer) at link s.tmimgcdn.com/js/plasma-pocket-react/monsterBundle.js?d=75792e5 (from www.templatemonsterpreview.com/66754.html)
+17:29:39	Error: 	"Internal Server Error" (500) after 2 retries at link www.templatemonsterpreview.com/chat_presales=1; expires=03 Jul 2036 21:44:38 GMT; domain=.templatemonster.com; path=/ (from www.templatemonsterpreview.com/66754.html)
+17:29:39	Error: 	"Internal Server Error" (500) after 2 retries at link www.templatemonsterpreview.com/callback_notice=closed; expires=03 Jul 2036 21:44:38 GMT; domain=.templatemonster.com; path=/ (from www.templatemonsterpreview.com/66754.html)
+17:30:31	Error: 	"Not Found" (404) at link www.templatemonsterpreview.com/ (from s.tmimgcdn.com/js/plasma-pocket-react/monsterBundle.js?d=75792e5)
+17:30:31	Error: 	"Not Found" (404) at link www.templatemonsterpreview.com/$&/ (from s.tmimgcdn.com/js/plasma-pocket-react/monsterBundle.js?d=75792e5)
+17:30:31	Warning: 	Retry after error -4 (No data (connection closed)) at link www.templatemonsterpreview.com/ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/ (from s.tmimgcdn.com/js/plasma-pocket-react/monsterBundle.js?d=75792e5)
+17:30:31	Warning: 	Retry after error -4 (No data (connection closed)) at link www.templatemonsterpreview.com/map.js (from s.tmimgcdn.com/js/plasma-pocket-react/monsterBundle.js?d=75792e5)
+17:30:31	Error: 	"Not Found" (404) at link www.templatemonsterpreview.com/call_get.js (from s.tmimgcdn.com/js/plasma-pocket-react/monsterBundle.js?d=75792e5)
+17:30:31	Error: 	"Not Found" (404) at link www.templatemonsterpreview.com/using.js (from s.tmimgcdn.com/js/plasma-pocket-react/monsterBundle.js?d=75792e5)
+17:30:32	Error: 	"Not Found" (404) at link www.templatemonsterpreview.com/timers.js (from s.tmimgcdn.com/js/plasma-pocket-react/monsterBundle.js?d=75792e5)
+17:30:32	Error: 	"Not Found" (404) at link www.templatemonsterpreview.com/generators.js (from s.tmimgcdn.com/js/plasma-pocket-react/monsterBundle.js?d=75792e5)
+17:30:32	Error: 	"Not Found" (404) at link www.templatemonsterpreview.com/nodeify.js (from s.tmimgcdn.com/js/plasma-pocket-react/monsterBundle.js?d=75792e5)
+17:30:32	Error: 	"Not Found" (404) at link www.templatemonsterpreview.com/promisify.js (from s.tmimgcdn.com/js/plasma-pocket-react/monsterBundle.js?d=75792e5)
+17:30:32	Error: 	"Not Found" (404) at link www.templatemonsterpreview.com/props.js (from s.tmimgcdn.com/js/plasma-pocket-react/monsterBundle.js?d=75792e5)
+17:30:32	Error: 	"Not Found" (404) at link www.templatemonsterpreview.com/race.js (from s.tmimgcdn.com/js/plasma-pocket-react/monsterBundle.js?d=75792e5)
+17:30:32	Error: 	"Not Found" (404) at link www.templatemonsterpreview.com/reduce.js (from s.tmimgcdn.com/js/plasma-pocket-react/monsterBundle.js?d=75792e5)
+17:30:32	Error: 	"Not Found" (404) at link www.templatemonsterpreview.com/settle.js (from s.tmimgcdn.com/js/plasma-pocket-react/monsterBundle.js?d=75792e5)
+17:30:32	Error: 	"Not Found" (404) at link www.templatemonsterpreview.com/some.js (from s.tmimgcdn.com/js/plasma-pocket-react/monsterBundle.js?d=75792e5)
+17:30:32	Error: 	"Not Found" (404) at link www.templatemonsterpreview.com/filter.js (from s.tmimgcdn.com/js/plasma-pocket-react/monsterBundle.js?d=75792e5)
+17:30:32	Error: 	"Not Found" (404) at link www.templatemonsterpreview.com/each.js (from s.tmimgcdn.com/js/plasma-pocket-react/monsterBundle.js?d=75792e5)
+17:30:32	Error: 	"Not Found" (404) at link www.templatemonsterpreview.com/any.js (from s.tmimgcdn.com/js/plasma-pocket-react/monsterBundle.js?d=75792e5)
+17:30:32	Error: 	"Not Found" (404) at link www.templatemonsterpreview.com/require (from s.tmimgcdn.com/js/plasma-pocket-react/monsterBundle.js?d=75792e5)
+17:30:32	Error: 	"Not Found" (404) at link www.templatemonsterpreview.com/? (from s.tmimgcdn.com/js/plasma-pocket-react/monsterBundle.js?d=75792e5)
+17:30:33	Error: 	"Not Found" (404) at link www.templatemonsterpreview.com/@@History/ (from s.tmimgcdn.com/js/plasma-pocket-react/monsterBundle.js?d=75792e5)
+17:30:33	Error: 	"Not Found" (404) at link www.templatemonsterpreview.com/fonts/PT_Sans/PTSans-Regular.svg (from s.tmimgcdn.com/js/plasma-pocket-react/monsterBundle.js?d=75792e5)
+17:30:33	Error: 	"Not Found" (404) at link www.templatemonsterpreview.com/fonts/PT_Sans/PTSans-Bold.svg (from s.tmimgcdn.com/js/plasma-pocket-react/monsterBundle.js?d=75792e5)
+17:30:33	Error: 	"Not Found" (404) at link www.templatemonsterpreview.com/ajax/landing-promocode.php?page-id= (from s.tmimgcdn.com/js/plasma-pocket-react/monsterBundle.js?d=75792e5)
+17:30:33	Warning: 	Retry after error 500 (Internal Server Error) at link www.templatemonsterpreview.com/ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/ (from s.tmimgcdn.com/js/plasma-pocket-react/monsterBundle.js?d=75792e5)
+17:30:34	Error: 	"Not Found" (404) at link www.templatemonsterpreview.com/map.js (from s.tmimgcdn.com/js/plasma-pocket-react/monsterBundle.js?d=75792e5)
+17:30:34	Error: 	"Internal Server Error" (500) after 2 retries at link www.templatemonsterpreview.com/ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/ (from s.tmimgcdn.com/js/plasma-pocket-react/monsterBundle.js?d=75792e5)
+
+HTTrack Website Copier/3.49-2 mirror complete in 1 minutes 49 seconds : 75 links scanned, 36 files written (4609497 bytes overall) [2443287 bytes received at 22415 bytes/sec], 4685486 bytes transferred using HTTP compression in 42 files, ratio 37%, 3.9 requests per connection
+(27 errors, 11 warnings, 0 messages)

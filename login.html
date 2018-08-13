@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Decentralized Job Portal</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/materialize.min.css">
+	<style type="text/css">
+		
+	</style>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+</head>
+<body>
+<div>
+	<div id="content">
+		<a href="index.html"><img id="logo" src="images/logo.png"></a>
+		<h2 id="logo-caption"><span style="color: #16B2BF;">D</span><span style="color: #873A70;">J</span><span style="color: #EA3369;">P</span></h2>
+		<h3 id="banner-text">Get Your Dream Job Right Now</h3>
+		<div>
+			<div class="input-field col s6">
+			<i class="small material-icons prefix">person</i>
+		      <input id="username" type="text" class="validate" name="username">
+		      <label for="username">Username</label>
+		    </div>
+		    <div class="input-field col s6">
+			<i class="small material-icons prefix">lock</i>
+		      <input id="password" type="password" class="validate" name="password">
+		      <label for="password">Password</label>
+		    </div>
+		    <label> <span style="font-size: 20px;">* I'm a &nbsp; </span>
+		    	<input class="with-gap" name="group1" type="radio" value="job_seeker"  />
+		    	<span>Job Seeker</span>
+		    </label>
+		    <label>
+		    	<input class="with-gap" name="group1" type="radio" value="hiring_manager"  />
+		    	<span>Hiring Manager</span>
+		    </label> <br><br>
+			<button onclick="login()" class="waves-effect waves-light btn" id="login-btn" value="Login">Login</button><br><br>
+			* fields are mandatory
+		</div>
+	</div>
+</div>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript" src="js/materialize.min.js"></script>
+	<script type="text/javascript">
+		function login() {
+			var selected_radio =$("input[type=radio]:checked").val();
+			if (selected_radio == 'job_seeker') {
+				document.location = 'jobseeker_profile_page.html';
+			} else if (selected_radio == 'hiring_manager') {
+				document.location = 'hiring_manager_profile_page.html';
+			}
+		}
+	</script>
+</body>
+</html>
