@@ -1,82 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Decentralized Job Portal</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" type="text/css" href="css/materialize.min.css">
-	<style type="text/css">
-		
-	</style>
-	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <title>Decentralized Job Portal</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/materialize.min.css">
+    <style type="text/css">
+        
+    </style>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 </head>
 <body>
-	<div id="content">
-		<img id="logo" src="images/logo.png">
-		<h2 id="logo-caption"><span style="color: #16B2BF;">D</span><span style="color: #873A70;">J</span><span style="color: #EA3369;">P</span></h2>
-		
-		<!-- <div> -->
+    <div id="content">
+        <img id="logo" src="images/logo.png">
+        <h2 id="logo-caption"><span style="color: #16B2BF;">D</span><span style="color: #873A70;">J</span><span style="color: #EA3369;">P</span></h2>
+        
+        <!-- <div> -->
 
-			<!-- See from user profile page and do it. -->
-			<!-- http://demo.geekslabs.com/materialize/v2.2/layout03/user-profile-page.html -->
+            <!-- See from user profile page and do it. -->
+            <!-- http://demo.geekslabs.com/materialize/v2.2/layout03/user-profile-page.html -->
 
-		  <!-- Dropdown Trigger -->
-		  <!-- <a class='dropdown-trigger btn dropdown-menu' href='#' data-target='dropdown1'>Drop Me!</a> -->
+          <!-- Dropdown Trigger -->
+          <!-- <a class='dropdown-trigger btn dropdown-menu' href='#' data-target='dropdown1'>Drop Me!</a> -->
 
-		  <!-- Dropdown Structure -->
-		  <!-- <ul id='dropdown1' class='dropdown-content dropdown-horizontal-list'  >
-		    <li><a href="#!">one</a></li>
-		    <li><a href="#!">two</a></li>
-		    <li class="divider" tabindex="-1"></li>
-		    <li><a href="#!">three</a></li>
-		    <li><a href="#!">four</a></li>
-		    <li><a href="#!">five</a></li>
-		  </ul> -->
-		<!-- </div> -->
+          <!-- Dropdown Structure -->
+          <!-- <ul id='dropdown1' class='dropdown-content dropdown-horizontal-list'  >
+            <li><a href="#!">one</a></li>
+            <li><a href="#!">two</a></li>
+            <li class="divider" tabindex="-1"></li>
+            <li><a href="#!">three</a></li>
+            <li><a href="#!">four</a></li>
+            <li><a href="#!">five</a></li>
+          </ul> -->
+        <!-- </div> -->
 
-		<div>
-			<!-- Dropdown Structure -->
-			<ul id="dropdown1" class="dropdown-content">
-			  <li><a href="#modal1" class="modal-trigger">Delete Profile</a></li>
-			  <li class="divider"></li>
-			  <li><a href="login.html">Logout</a></li>
-			</ul>
+        <div>
+            <!-- Dropdown Structure -->
+            <ul id="dropdown1" class="dropdown-content">
+              <li><a href="#modal1" class="modal-trigger">Delete Profile</a></li>
+              <li class="divider"></li>
+              <li><a href="#modal2" class="modal-trigger">Logout</a></li>
+            </ul>
 
-			  <!-- Modal Structure -->
-			  <div id="modal1" class="modal" style="color: black">
-			    <div class="modal-content">
-			      <h4>Delete Profile ?</h4>
-			      <p>Are you aware that deleting your profile will reduce your Oppurtunities of getting your Dream Job ?</p>
-			    </div>
-			    <div class="modal-footer">
-			      <a href="index.html" class="waves-effect waves-green btn-flat">Yes, Reduce My Oppurtunities.</a>
-			      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Cancel</a>
-			    </div>
-			  </div>
+              <!-- Modal for Delete Profile-->
+              <div id="modal1" class="modal" style="background-image: linear-gradient(to left, #6a11cb 0%, #2575fc 100%);">
+                <div class="modal-content">
+                  <h4>Delete Profile ?</h4>
+                  <p>Are you aware that deleting your profile will reduce your Oppurtunities of getting your Dream Job ?</p>
+                </div>
+                <div class="modal-footer" style="background-image: linear-gradient(to left, #6a11cb 0%, #2575fc 100%);">
+                  <a href="index.html" class="waves-effect waves-green btn-flat" style="background-color: #b71c1c; color: white;">Yes, Reduce My Oppurtunities.</a>
+                  <a href="#!" class="modal-close waves-effect waves-green btn-flat" style="background-color: #2e7d32; color: white;">Cancel</a>
+                </div>
+              </div>
 
-			<nav>
-			  <div class="nav-wrapper header-nav">
-			  	<a class="brand-logo">Edit Profile</a>
-			    <ul class="right hide-on-med-and-down">
-			      <!-- Dropdown Trigger -->
-			      <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Options<i class="material-icons right">arrow_drop_down</i></a></li>
-			    </ul>
-			  </div>
-			</nav>
+              <!-- Modal for Logout-->
+              <div id="modal2" class="modal" style="background-image: linear-gradient(to left, #6a11cb 0%, #2575fc 100%);">
+                <div class="modal-content">
+                  <h4>Logout ?</h4>
+                  <p>Are you sure want to logout?</p>
+                  <br><br>
+                  <a href="index.html" class="waves-effect waves-green btn-flat" style="background-color: #b71c1c; color: white;">Yes</a>
+                  <a href="#!" class="modal-close waves-effect waves-green btn-flat" style="background-color: #2e7d32; color: white;">No</a><br>
+
+                </div>
+              </div>
+
+
+            <nav>
+              <div class="nav-wrapper header-nav">
+                <a class="brand-logo">Edit Profile</a>
+                <ul class="right hide-on-med-and-down">
+                  <!-- Dropdown Trigger -->
+                  <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Options<i class="material-icons right">arrow_drop_down</i></a></li>
+                </ul>
+              </div>
+            </nav>
         </div>
 
         <div class="row">
             <div class="col s12">
 
-            	<div class="input-field col s12">
-            		<i class="fas fa-user-tie prefix"></i>
+                <div class="input-field col s12">
+                    <i class="fas fa-user-tie prefix"></i>
                     <input id="designation" type="text" class="validate">
                     <label for="designation">Current designation</label>
                 </div>
 
                 <div class="row">
                     <div class="input-field col s6">
-                    	<i class="small material-icons prefix">hourglass_empty</i>
+                        <i class="small material-icons prefix">hourglass_empty</i>
                         <select>
                             <option value="" disabled selected>Years</option>
                             <option value="0">0</option>
@@ -117,7 +130,7 @@
                 </div>
                 <div class="row">
                     <div class="input-field col s6">
-                    	<i class="small material-icons prefix">hourglass_empty</i>
+                        <i class="small material-icons prefix">hourglass_empty</i>
                         <select>
                             <option value="" disabled selected>Years</option>
                             <option value="0">0</option>
@@ -156,7 +169,7 @@
                     </div>
                 </div>
                 <div class="input-field col s12">
-                	<i class="fas fa-globe-americas prefix"></i>
+                    <i class="fas fa-globe-americas prefix"></i>
                     <select name="countries">
                         <option value="" disabled selected>-- Select Country --</option>
                         <option value="Afghanistan">Afghanistan</option>
@@ -410,12 +423,19 @@
 
             </div>
         </div>
-		
-		<p class="center-align"> 
-			<a href="#" class="waves-effect waves-light btn" id="save-btn" onclick="save()">Save</a>
-		</p> 
-		
-	</div>
+        
+        <p class="center-align"> 
+            <a href="#" class="waves-effect waves-light btn" id="save-btn" onclick="save()">Save</a>
+        </p> 
+    <footer style="margin-top: 100px;">
+        <div class="container">
+        © 2018 BlockchainRecruitment
+        <br>
+        <br>
+        Designed by <a href="https://yaswanthgupta.github.io/" target="_blank">Yaswanth Gupta</a> &amp; <a href="https://www.facebook.com/saipraneeth.samayamanthula" target="_blank">Sai Praneeth</a>
+        </div>
+    </footer>
+    </div>
 
 <script type="text/javascript" src="js/jquery.min.js"></script>
 <script type="text/javascript" src="js/script.js"></script>
@@ -427,20 +447,20 @@
   });
 </script>
 <script type="text/javascript">
-	function save() {alert('Details Saved Successfully !');}
+    function save() {alert('Details Saved Successfully !');}
 </script>
 <script type="text/javascript">
-	//Delete profile JavaScript
-	  document.addEventListener('DOMContentLoaded', function() {
-	    var elems = document.querySelectorAll('.modal');
-	    var instances = M.Modal.init(elems, options);
-	  });
+    //Delete profile JavaScript
+      document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('.modal');
+        var instances = M.Modal.init(elems, options);
+      });
 
-	  // Or with jQuery
+      // Or with jQuery
 
-	  $(document).ready(function(){
-	    $('.modal').modal();
-	  });
+      $(document).ready(function(){
+        $('.modal').modal();
+      });
 </script>
 
 </body>
