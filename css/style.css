@@ -52,6 +52,26 @@ tr, th {
 	color: white;
 }
 
+#dejp:hover #decentralized{
+	color: #16B2BF;
+}
+
+#dejp:hover #job{
+	color: #873A70;
+}
+
+#dejp:hover #portal{
+	color: #EA3369;
+}
+
+.menu {
+	color: white;
+}
+
+.menu:hover {
+	color: #0097d6 !important;
+}
+
 .sorting_1, th {
 	background-color: rgba(0,0,0,0.3) !important;
 }
@@ -86,7 +106,7 @@ table.display tbody tr:hover td{
  	background: rgba(0,0,0,0.7);
  	padding: 10px;
  	margin: 0 auto;
- 	width: 750px;
+ 	width: 800px;
 }
 
 #logo {
@@ -99,14 +119,18 @@ table.display tbody tr:hover td{
 	color: #ff3d00;
 }
 #banner-text{
-	font-family: 'Montserrat';/*
-  background: -webkit-linear-gradient( #f64f59, #c471ed, #12c2e9);
+	font-family: 'Montserrat';
+	/* background: -webkit-linear-gradient( #f64f59, #c471ed, #12c2e9);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;*/
 }
 
 #login-btn{
-	margin-right: 10px;
+	margin-right: 20px;
+}
+
+#about-btn{
+	margin-right: 20px;
 }
 
 form {
@@ -165,6 +189,7 @@ background: -webkit-linear-gradient(to left, #f64f59, #c471ed, #12c2e9);  /* Chr
 background: linear-gradient(to left, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 margin-left: -20px;
 padding-left: 20px;
+text-align: center;
 }
 
 .tabs .tab a:hover, .tabs .tab a.active {
@@ -174,15 +199,9 @@ background: linear-gradient(to left, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+/
 font-weight: bold;
 }
 
-/*
-#873A70
-#EA3369
-#16B2BF
-#00acc1
-#00e676
-#2e7d32
-#1b5e20
-#ff3d00
-#00e676
-#01579b
-*/
+#project-text{
+	font-family: 'Montserrat';
+	text-align: left;
+}
+
+
